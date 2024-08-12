@@ -5,7 +5,7 @@ library(SeuratDisk)
 library(ggplot2)
 library(ggpubr)
 
-##Calculate signature score(for Fig6g,h)
+##Calculate signature score(for Fig6d,e)
 CoStimulatory = list(c('CD27', 'CD28', 'CD40LG', 'ICOS', "SLAMF1", 'TNFRSF14', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9', 'ICOSLG', 'TNFRSF8', 'CD226', 'TNFRSF25'))
 Cytotoxic = list(c('GNLY', 'GZMA', 'GZMB', 'GZMK', 'IFNG', 'NKG7', 'PRF1', 'CST7', 'TNFSF10', 'CCL4', 'CCL3', 'FASLG', 'CD44'))
 Exhaustion = list(c('BTLA', 'CD276', 'CTLA4', 'ENTPD1', 'HAVCR2', 'IDO1', 'KLRC1', 'LAG3', 'LAYN', 'LGALS9', 'LILRB2', 'LILRB4', 'PD1', 'PD-L1', 'PD-L2', 'TDO2', 'TIGIT', 'VSIR', 'PDCD1', 'CXCL13'))
