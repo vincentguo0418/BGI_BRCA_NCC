@@ -258,7 +258,8 @@ nmf_markers <- rownames(h_matrix_new_normed)
 #print(SpatialFeaturePlot(seurat_obj, features = nmf_markers, ncol = 4, stroke = 0, pt.size.factor = 30))
 #dev.off()
 metadata <- read.delim("cellbin_metadata_magic.txt",row.names=1)
-# cellbin plot
+
+##### cellbin plot
 for (nmf in nmf_markers){
   # exp <- ceiling((as.data.frame(data_filtered))*1000000)
   metadata_seurat <- seurat_obj@meta.data
